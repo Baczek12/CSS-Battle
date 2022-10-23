@@ -1,0 +1,36 @@
+<div class="first"></div>
+<div class="second"></div>
+<div class="third""></div>
+<style>
+  body{
+    background:#E3516E;
+    margin:0;
+  }
+    .first{
+      position: absolute;
+    width: 100px;
+    height: 100px;
+    background:#51B5A9 ;
+    margin: 50px 100px;
+    border: none;
+    border-radius: 100px 0 0 0;
+    }
+  .second{
+    position:absolute;
+    width:100px;
+    height:100px;
+    background:#F7F3D7;
+    margin:150px 100px;
+    border:none;
+    border-radius: 0px 0px 0px 100px;
+  }
+   .third{
+     position:absolute;
+     width:100px;
+     height:100px;
+     background:#FADE8B;
+     margin:50px 200px;
+     border:none;
+     border-radius: 0px 100px 0px 0px;
+   }
+</style>

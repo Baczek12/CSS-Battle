@@ -1,0 +1,40 @@
+<div class="first"></div>
+<div class="second"></div>
+<div class="third"></div>
+<style>
+  body{
+    background:#62306D;
+    margin:0px;
+  }
+    .first {
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    background:#F7EC7D ;
+    border:0px solid;
+    border-bottom-left-radius: 50px 50px;
+    border-bottom-right-radius:50px 50px;
+    margin: 150px 50px;
+     }
+   .second{
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     background:#F7EC7D;
+     border:none;
+     border-top-left-radius: 50px 50px;
+     border-top-right-radius: 50px 50px;
+     margin: 50px 150px;
+   }
+  .third{
+    position:absolute;
+    width:100px;
+    height:100px;
+    background:#F7EC7D;
+    border:none;
+    border-bottom-left-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+    margin:150px 250px;
+  }
+    
+</style>

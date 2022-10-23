@@ -1,0 +1,45 @@
+<div class="Bottom"></div>
+<div class="Mid"></div>
+<div class="Top"></div>
+<style>
+  body{
+    background:#0B2429;
+    margin:0px
+    }
+    .Top{
+     position: absolute;
+     width:120px;
+     height:120px;
+     background:#F3AC3C;
+     margin: 30px 200px;
+     border:none;
+     border-radius:90%;
+      z-index:-2
+   }
+      .Mid{
+     position: absolute;
+     width:120px;
+     height:120px;
+     background:#998235;
+     margin: 90px 140px;
+     border: none;
+     border-top-left-radius:90%;
+     border-bottom-left-radius:90%;
+     border-bottom-right-radius:90%;
+    z-index:-1
+   }
+    .Bottom {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: #F3AC3C;
+    margin:150px 80px;
+    border:none;
+    border-top-left-radius:90%;
+    border-bottom-left-radius:90%;
+    border-bottom-right-radius:90%;
+      z-index:0
+    }
+   
+   
+</style>
